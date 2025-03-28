@@ -57,3 +57,5 @@ else
     (crontab -l 2>/dev/null; echo "$CRON_JOB") | crontab -
     echo "Cron job has been added to run the webhook script at boot."
 fi
+
+sudo reboot
