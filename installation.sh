@@ -22,7 +22,7 @@ sudo usermod -aG docker $USER
 ENV_VAR_NAME="WEBHOOK_PYTHON_PATH"
 
 
-DEFAULT_WEBHOOK_SCRIPT_PATH="~/production/webhook.py"
+DEFAULT_WEBHOOK_SCRIPT_PATH="$HOME/production/webhooks.py"
 
 # Check if the environment variable is already set
 if [ -n "${!ENV_VAR_NAME}" ]; then
