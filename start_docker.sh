@@ -1,4 +1,4 @@
-source .env
+source ~/production/.env
 
 export CR_PAT=$TOKEN_GHCR ; echo $CR_PAT | docker login ghcr.io -u USERNAME --password-stdin
 
